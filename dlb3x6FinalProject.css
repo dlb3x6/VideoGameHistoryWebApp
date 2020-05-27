@@ -1,0 +1,206 @@
+body {
+    background-image: url(background.jpg); /*https://www.parallaxmedia.one/2019/08/09/zoes-odyssey-of-entertainment-the-lands-of-video-game-consoles/*/
+}
+
+p, li {
+    color: white;
+    font-family: Courier, serif;
+}
+
+h1, h2, h3 {
+    color: #00ff00;
+    font-family: Courier, serif;
+}
+
+#wrapper {
+    width: 80%;
+    height: 800px;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 10px solid red;
+}
+
+#intro {
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    height: 25%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#video {
+    width: 30%;
+    height: 30%;
+    border: 8px solid white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#consolesInteractable {
+    width: 100%;
+    height: 45%;  
+}
+
+#tabs {
+    width: 100%;
+    height: 36pt;
+    background-color: #262626;
+}
+
+li {
+    float: left;
+    list-style: none; /*https://www.bitdegree.org/learn/css-list-style*/
+    font-size: 20pt;
+    margin: 0 1.5% 0;
+    text-align: center;
+    background-color: #404040;
+    padding: 8.8px;
+}
+
+li:hover {
+    background-color: lightgray;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#videoText {
+    text-align: center;
+    margin-top: 25%;
+}
+
+.systems {
+    width: 100%;
+    height: 75%;
+    border-radius: 0 0 9px 9px;
+    overflow: hidden;
+    display: none;
+}
+
+.columns {
+    float: left;
+    display: inline-block;
+    height: 100%;
+}
+
+.systemImages {
+    background-color: gray;
+    width: 20%;
+}
+
+.games {
+    width: 60%;
+}
+
+.clearfix:after {
+    
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#gen1 {
+    display: block;
+}
+
+.systemPic {
+    height: 60%;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /*https://www.w3schools.com/howto/howto_css_image_center.asp*/
+    margin-top: 20%;
+}
+
+.game1, .game2 {
+    width: 50%;
+    float: left;
+}
+
+.gamePic {
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    cursor: grab; /*https://www.w3schools.com/cssref/pr_class_cursor.asp*/
+}
+
+.centerThis {
+    text-align: center;
+}
+
+#atariClone {
+    cursor: pointer; /*https://www.w3schools.com/cssref/playit.asp?filename=playcss_cursor&preval=pointer*/
+}
+
+.smol {
+    font-size: 11.5pt;
+    padding: 5px;
+}
+
+.tab {
+    cursor: pointer;
+}
+.float {
+    float: left;
+    margin: 10px;
+}
+
+.multipleConsoles {
+    width: 40%;
+}
+
+#wiiSports, #pokemonRuby, #nsmb {
+    width: 20%;
+}
+
+.active {
+    background-color: lightgray;
+}
+
+#loginForm {
+    background-color: black;
+    width: 30%;
+    height: 40%;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+.textField {
+    background-color: black;
+    color: white;
+    font-family: Courier, serif;
+    font-size: 18pt;
+    display: block;
+    margin: 30px auto;
+}
+
+#logout {
+    background-color: black;
+    border: 2px solid white;
+    font-family: Courier, serif;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.error {
+    background-color: black;
+}
+
+#resetButton {
+    color: red;
+    padding: 5px;
+    width: 40%;
+}
+
+.pointyClicky {
+    cursor: pointer;
+}
